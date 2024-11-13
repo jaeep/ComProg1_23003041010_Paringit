@@ -1,0 +1,43 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+ using namespace std;
+ 
+int main()
+{
+   string VisitorName;
+  string Birthday;
+  int month;
+  int day;
+  int year;
+  
+cout << "Hello I am Jae! Welcome to my first C++ Application\n";
+cout << "Hey! What is your name? ";
+
+cout << "\nnya!!!!";
+cin >> VisitorName;
+cout << "Good Day" << VisitorName <<"Its nice to meet you!";
+
+cout << "\nWhen is your birthday?";
+cout << "\nmonth: ";
+cin >> month;
+cout << "day: ";
+cin >> day;
+cout << "year: ";
+cin >> year;
+
+double  leapyear = year % 4;
+
+cout << leapyear; 
+if (leapyear == 0)
+{
+    cout << "Nice if you're a leapyear";
+    
+}
+else
+{
+    cout << "Nice if you're not a leapyear";
+}
+
+
+    return 0;
+}
